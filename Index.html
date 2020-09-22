@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assest/style.css">
+    <link rel="stylesheet" href="./Assest/nivo-slider.css">
+    <link rel="stylesheet" href="./themes/bar/bar.css">
+    <link rel="stylesheet" href="./themes/default/default.css">
+    <title>SILDER</title>
+</head>
+
+
+<body>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    </script>
+    <div class="jquery-script-clear"></div>
+    <div id="wrapper">
+        <div class="slider-wrapper theme-default">
+            <div id="nivo" class="nivoSilder">
+                <img src="./Assest/images/CUTE-1.jpg" data-thumb="demo/images/nemo.jpg" alt="" title="#firstcaption" />
+
+                <img src="./Assest/images/05.jpg" data-thumb="demo/images/nemo.jpg" alt="" title="#secondcaption" />
+
+                <img src="./Assest/images/06.jpg" data-thumb="demo/images/nemo.jpg" alt="" title="#thirdcaption" />
+            </div>
+
+            <div id="firstcaption" class="nivo-html-caption"> <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. </div>
+            <div id="secondcaption" class="nivo-html-caption"> <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. </div>
+            <div id="thirdcaption" class="nivo-html-caption"> <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. </div>
+
+        </div>
+    </div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="Assest/scripts/jquery-1.7.1.min.js"></script>
+    <script src="Assest/jquery.nivo.slider.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#nivo').nivoSlider();
+        });
+    </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+
+</html>
